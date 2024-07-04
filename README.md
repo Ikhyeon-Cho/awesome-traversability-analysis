@@ -1,23 +1,24 @@
+<div align="center">
+
 # Awesome Traversability Analysis [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > A curated list of awesome **terrain classification**, **traversability analysis** papers and codes for robotic navigation in the real-world 😎
 
-<div align="center">
+
 <strong>Last update: June, 2024 </strong>
 <br>
 <br>
-Any PRs are welcome!
+Any PRs are welcome! 😃
 
+----
 </div>
 
 <div align="left">
 </div>
 
-<br>
-<br>
-
-**2024.05.17**  - Updated ICRA 2024 papers :) <br>
-**2023.10.05**  - Updated IROS 2023 papers :) <br>
+### Notice
+**2024.05.17**  - Updated **ICRA 2024** papers <br>
+**2023.10.05**  - Updated **IROS 2023** papers <br>
 
 ## Table of Contents
 - [Survey papers](#survey-papers)
@@ -29,8 +30,7 @@ Any PRs are welcome!
   - [Hybrid approaches](#hybrid-approaches)
   - [Terrain-aware Navigation](#terrain-aware-navigation)
 - [Public Datasets](#public-datasets)
-- [Libraries & Implementations]()
-
+- [Codes & Implementations](#codes--implementations)
 
 <br>
 
@@ -53,13 +53,13 @@ Any PRs are welcome!
 
 - [Pronav: Proprioceptive traversability estimation for legged robot navigation in outdoor environments](https://ieeexplore.ieee.org/abstract/document/10569052), Elnoor et al., RA-L 2024 | [arXiv](https://arxiv.org/abs/2307.09754)  | [bibtex](./traversability-papers-2023-2024.bib#L1-L7)
 
-- [Evidential Semantic Mapping in Off-road Environments with Uncertainty-aware Bayesian Kernel Inference](https://arxiv.org/abs/2403.14138), Kim et al., arXiv 2024, | [arXiv](https://arxiv.org/abs/2403.14138)  | [bibtex](./traversability-papers-2023-2024.bib#L39-L44)
-
 - [Learning Self-Supervised Traversability With Navigation Experiences of Mobile Robots: A Risk-Aware Self-Training Approach](https://ieeexplore.ieee.org/document/10468651), Cho et al., RA-L 2024| [bibtex](./traversability-papers-2023-2024.bib#L9-L15) | [Github](https://github.com/Ikhyeon-Cho/LeSTA) 
 
 - [Robot-Dependent Traversability Estimation for Outdoor Environments using Deep Multimodal Variational Autoencoders](https://graz.elsevierpure.com/en/publications/robot-dependent-traversability-estimation-for-outdoor-environment), Eder et al., ICRA 2024 | [bibtex](./traversability-papers-2023-2024.bib#L17-L23)
 
 - [Transformer-based Traversability Analysis for Autonomous Navigation in Outdoor Environments with Water Hazard](https://ieeexplore.ieee.org/abstract/document/10574380), Xu et al., T-IV 2024  | [bibtex](./traversability-papers-2023-2024.bib#L52-L58)
+
+- [Evidential Semantic Mapping in Off-road Environments with Uncertainty-aware Bayesian Kernel Inference](https://arxiv.org/abs/2403.14138), Kim et al., arXiv 2024, | [arXiv](https://arxiv.org/abs/2403.14138)  | [bibtex](./traversability-papers-2023-2024.bib#L39-L44)
 
 - [Learning-based Traversability Costmap for Autonomous Off-road Navigation](https://arxiv.org/abs/2406.08187), Zhu et al., arXiv 2024 | [arXiv](https://arxiv.org/abs/2406.08187)  | [bibtex](./traversability-papers-2023-2024.bib#L25-L30)
 
@@ -266,14 +266,12 @@ Any PRs are welcome!
 
 ### Structured urban environments
 
-- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf), Mildenhall et al., ECCV 2020 | [github](https://github.com/bmild/nerf)  | [bibtex](./NeRF-and-Beyond.bib#L168-L173)
-- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf), Mildenhall et al., ECCV 2020 | [github](https://github.com/bmild/nerf)  | [bibtex](./NeRF-and-Beyond.bib#L168-L173)
-- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf), Mildenhall et al., ECCV 2020 | [github](https://github.com/bmild/nerf)  | [bibtex](./NeRF-and-Beyond.bib#L168-L173)
+- 
 
 
 
 ### Unstructured terrains
 
-- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf), Mildenhall et al., ECCV 2020 | [github](https://github.com/bmild/nerf)  | [bibtex](./NeRF-and-Beyond.bib#L168-L173)
-- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf), Mildenhall et al., ECCV 2020 | [github](https://github.com/bmild/nerf)  | [bibtex](./NeRF-and-Beyond.bib#L168-L173)
-- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf), Mildenhall et al., ECCV 2020 | [github](https://github.com/bmild/nerf)  | [bibtex](./NeRF-and-Beyond.bib#L168-L173)
+- 
+
+## Codes & Implementations
