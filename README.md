@@ -20,7 +20,8 @@ Keep updating... Any PRs are welcome! 😃
 **2024.05.17**  - Updated **ICRA 2024** papers <br>
 **2023.10.05**  - Updated **IROS 2023** papers <br>
 <br>
-Type 'GitHub' in the search bar for finding open-sourced projects 
+
+> Type 'GitHub' in the search bar for finding open-sourced projects 
 
 ## Table of Contents
 - [Survey papers](#survey-papers)
@@ -32,7 +33,6 @@ Type 'GitHub' in the search bar for finding open-sourced projects
   - [Hybrid approaches](#hybrid-approaches)
   - [Terrain-aware Navigation](#terrain-aware-navigation)
 - [Public Datasets](#public-datasets)
-- [Codes & Implementations](#codes--implementations)
 
 <br>
 
@@ -287,13 +287,20 @@ Type 'GitHub' in the search bar for finding open-sourced projects
 ## Public Datasets
 
 ### Structured urban environments
+- [KITTI VIsion Benchmark Suite](http://www.cvlibs.net/datasets/kitti/) : Stereo Camera images, LiDAR pointclouds, GPS/IMU  data
+- [SemanticKITTI](http://semantic-kitti.org/index.html) : LiDAR points labeled with semantic class
+- [nuScenes](https://www.nuscenes.org) : The data from 6 cameras, 1 LiDAR, 5 radars, and GPS/IMU
+- [BDD100k](https://bdd-data.berkeley.edu/) : Video images annotated for object detection, lane detection, action recognition.
+- [Cityscapes](https://www.cityscapes-dataset.com/) : semantic segmentation with high-resolution images annotated at the pixel level
+- [KAIST Urban Dataset](https://sites.google.com/view/complex-urban-dataset/home) : The data from LiDAR, cameras (stereo, thermal, and panoramic), GPS, and IMU.
 
-- 
-
+See more datasets at:
+- [awesome-autonomous-driving-dataasets](https://github.com/lhyfst/awesome-autonomous-driving-datasets)
+- [awesome-slam-datasets](https://github.com/youngguncho/awesome-slam-datasets)
 
 
 ### Unstructured terrains
-
-- 
-
-## Codes & Implementations
+- [RELLIS-3D](https://www.unmannedlab.org/research/RELLIS-3D) : Data with Stereo Camera images, LiDAR pointclouds, GPS/IMU
+- [RUGD](http://rugd.vision/) : Video dataset annotated with pixel-wise labels
+- [BotanicGarden](https://github.com/robot-pesg/BotanicGarden) : Stereo camera images, LiDAR pointclouds, GPS/IMU, Wheel encoders
+- [GOOSE](https://goose-dataset.de/) : Data with Stereo Camera images, LiDAR pointclouds, GPS/IMU
