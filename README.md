@@ -8,7 +8,7 @@
 <strong>Last update: June, 2024 </strong>
 <br>
 <br>
-Any PRs are welcome! 😃
+Keep updating... Any PRs are welcome! 😃
 
 ----
 </div>
@@ -19,6 +19,8 @@ Any PRs are welcome! 😃
 ### Notice
 **2024.05.17**  - Updated **ICRA 2024** papers <br>
 **2023.10.05**  - Updated **IROS 2023** papers <br>
+<br>
+Type 'GitHub' in the search bar for finding open-sourced projects 
 
 ## Table of Contents
 - [Survey papers](#survey-papers)
@@ -53,7 +55,8 @@ Any PRs are welcome! 😃
 
 - [Pronav: Proprioceptive traversability estimation for legged robot navigation in outdoor environments](https://ieeexplore.ieee.org/abstract/document/10569052), Elnoor et al., RA-L 2024 | [arXiv](https://arxiv.org/abs/2307.09754)  | [bibtex](./traversability-papers-2023-2024.bib#L1-L7)
 
-- [Learning Self-Supervised Traversability With Navigation Experiences of Mobile Robots: A Risk-Aware Self-Training Approach](https://ieeexplore.ieee.org/document/10468651), Cho et al., RA-L 2024| [bibtex](./traversability-papers-2023-2024.bib#L9-L15) | [Github](https://github.com/Ikhyeon-Cho/LeSTA) 
+- [Learning Self-Supervised Traversability With Navigation Experiences of Mobile Robots: A Risk-Aware Self-Training Approach](https://ieeexplore.ieee.org/document/10468651), Cho et al., RA-L 2024| [bibtex](./traversability-papers-2023-2024.bib#L9-L15) | [Github](https://github.com/Ikhyeon-Cho/LeSTA)
+
 
 - [Robot-Dependent Traversability Estimation for Outdoor Environments using Deep Multimodal Variational Autoencoders](https://graz.elsevierpure.com/en/publications/robot-dependent-traversability-estimation-for-outdoor-environment), Eder et al., ICRA 2024 | [bibtex](./traversability-papers-2023-2024.bib#L17-L23)
 
@@ -95,6 +98,8 @@ Any PRs are welcome! 😃
 
 - [A Framework for Real-Time Generation of Multi-Directional Traversability Maps in Unstructured Environments](), Huang et al., ICRA 2024
 
+- [Traversability-aware Adaptive Optimization for Path Planning and Control in Mountainous Terrain](https://ieeexplore.ieee.org/abstract/document/10496162/), Yoo et al., RA-L 2024 | [arXiv](https://arxiv.org/abs/2404.03274) | [bibtex](./traversability-papers-2023-2024.bib#L228-234)
+
 - [DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10161144?casa_token=EvUJUsgt1Y0AAAAA:mYMnFawkhoo6BwtSwMse83yucZa9cfkafze3NBF7xClfpLuco7dOfsIbKGQpUD8_hjxfOC7I), Nahrendra et al., ICRA 2023 | [arXiv](https://arxiv.org/abs/2301.10602) | [bibtex](./traversability-papers-2023-2024.bib#L151-L158)
 
 - [Learning Off-Road Terrain Traversability With Self-Supervisions Only](https://ieeexplore.ieee.org/abstract/document/10146445?casa_token=wz4aKxIS5lUAAAAA:jStUgDTsD0VXUVRoKdZ_d9mZTm6iY0__P5gFfYGRxv3HkSU5SlipvQXgJxuvEsK0Tmsj458l), Seo et al., RA-L 2023 | [arXiv](https://arxiv.org/abs/2301.10602) | [bibtex](./traversability-papers-2023-2024.bib#L211-L220)
@@ -114,58 +119,73 @@ Any PRs are welcome! 😃
 <br>
 
 ### Geometry-based approaches
+
 <details open>
-<summary>Representation Learning </summary>
+<summary>Dense Terrain Modeling </summary>
 
-- Real-Time Neural Dense Elevation Mapping for Urban Terrain With Uncertainty Estimations
+- [Probabilistic Terrain Mapping for Mobile Robots With Uncertain Localization](https://ieeexplore.ieee.org/document/8392399), Fankhauser et al., RA-L 2018 | [bibtex](./terrain_traversability_analysis.bib#L60-L69) | [Github](https://github.com/ANYbotics/elevation_mapping)
 
-- Neural Scene Representation for Locomotion on Structured Terrain
+- [OctoMap: An efficient probabilistic 3D mapping framework based on octrees](https://link.springer.com/article/10.1007/s10514-012-9321-0), Hornung et al., Autonomous Robots 2013 | [bibtex](./terrain_traversability_analysis.bib#L71-L79) | [Github](https://github.com/OctoMap/octomap)
 
-- Reconstructing Occluded Elevation Information in Terrain Maps With Self-Supervised Learning
+- [Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning](https://ieeexplore.ieee.org/abstract/document/8202315), Oleynikova et al., IROS 2017 | [arXiv](https://arxiv.org/abs/1611.03631) | [bibtex](./terrain_traversability_analysis.bib#L81-L88) | [Github](https://github.com/ethz-asl/voxblox)
 
-- Learning-aided 3-D occupancy mapping with Bayesian generalized kernel inference
+</details>
 
-- Bayesian generalized kernel inference for terrain traversability mapping
+<details open>
+<summary>Terrain Representation Learning </summary>
 
+- [Occupancy Networks: Learning 3D Reconstruction in Function Space](https://openaccess.thecvf.com/content_CVPR_2019/html/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.html), Mescheder et al., CVPR 2019 | [arXiv](https://arxiv.org/abs/1812.03828) | [bibtex](./terrain_traversability_analysis.bib#L90-L96) | [Github](https://github.com/autonomousvision/occupancy_networks)
 
+- [Learning-aided 3-D occupancy mapping with Bayesian generalized kernel inference](https://ieeexplore.ieee.org/abstract/document/8713569), Doherty et al., T-RO 2019 | [bibtex](./terrain_traversability_analysis.bib#L98-L107) | [Github](https://github.com/RobustFieldAutonomyLab/la3dm)
+
+- [DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation](http://openaccess.thecvf.com/content_CVPR_2019/html/Park_DeepSDF_Learning_Continuous_Signed_Distance_Functions_for_Shape_Representation_CVPR_2019_paper.html), Part et al., CVPR 2019 | [arXiv](https://arxiv.org/abs/1901.05103) | [bibtex](./terrain_traversability_analysis.bib#L109-L115) | [Github](https://github.com/facebookresearch/DeepSDF)
+
+- [Real-Time Neural Dense Elevation Mapping for Urban Terrain With Uncertainty Estimations](https://ieeexplore.ieee.org/abstract/document/9992063/), Yang et al., RA-L 2022 | [arXiv](https://arxiv.org/abs/2208.03467) | [bibtex](./terrain_traversability_analysis.bib#L117-L126)
+
+- [Neural Scene Representation for Locomotion on Structured Terrain](https://ieeexplore.ieee.org/abstract/document/9801620/), Hoeller et al., RA-L 2022 | [arXiv](https://arxiv.org/abs/2206.08077) | [bibtex](./terrain_traversability_analysis.bib#L128-L137)
+
+- [Reconstructing Occluded Elevation Information in Terrain Maps With Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/9676411/), Stolzle et al., RA-L 2022 | [arXiv](https://arxiv.org/abs/2109.07150) | [bibtex](./terrain_traversability_analysis.bib#L139-L148) | [Github](https://github.com/mstoelzle/solving-occlusion)
+
+- [Bayesian generalized kernel inference for terrain traversability mapping](http://proceedings.mlr.press/v87/shan18a.html), Shan et al., CoRL 2018 | [arXiv](https://arxiv.org/abs/2301.00523) | [bibtex](./terrain_traversability_analysis.bib#L150-L157) | [Github](https://github.com/TixiaoShan/BGK_traversability_mapping)
+
+- [RoadBEV: Road Surface Reconstruction in Bird’s Eye View](), Zhao et al., arXiv 2024 | [arXiv](https://arxiv.org/abs/2404.06605) | [bibtex](./terrain_traversability_analysis.bib#L159-L164) | [Github](https://github.com/ztsrxh/RoadBEV)
 
 </details>
 
 <details open>
 <summary>Uncertainty & risk estimation</summary>
 
-- Probabilistic Traversability Model for Risk-Aware Motion Planning in Off-Road Environments
+- [Active Traversability Learning via Risk-Aware Information Gathering for Planetary Exploration Rovers](https://ieeexplore.ieee.org/abstract/document/9894664/), Endo et al., RA-L 2022 | [bibtex](./terrain_traversability_analysis.bib#L166-L175)
 
-- Active Traversability Learning via Risk-Aware Information Gathering for Planetary Exploration Rovers
+- [EVORA: Deep Evidential Traversability Learning for Risk-Aware Off-Road Autonomy](), Cai et al., arXiv 2023 | [arXiv](https://arxiv.org/abs/2311.06234) | [bibtex](./terrain_traversability_analysis.bib#L177-L182)
 
-- These Maps are Made for Walking: Real-Time Terrain Property Estimation for Mobile Robots
+- [These Maps are Made for Walking: Real-Time Terrain Property Estimation for Mobile Robots](https://ieeexplore.ieee.org/abstract/document/9792203/), Ewen et al., RA-L 2022 | [arXiv](https://arxiv.org/abs/2205.12925) | [bibtex](./terrain_traversability_analysis.bib#L184-L193) | [Github](https://github.com/roahmlab/sel_map)
 
-- STEP: Stochastic Traversability Evaluation and Planning for Risk-Aware Off-road Navigation
-
-- Probabilistic Terrain Mapping for Mobile Robots With Uncertain Localization
+- [STEP: Stochastic Traversability Evaluation and Planning for Risk-Aware Off-road Navigation](https://www.roboticsproceedings.org/rss17/p021.html), Fan et al., RSS 2021 | [arXiv](https://arxiv.org/abs/2103.02828) | [bibtex](./terrain_traversability_analysis.bib#L195-L203)
 
 
 
 </details>
 
+
 <details open>
 <summary>Learning from demonstration</summary>
 
-- Locomotion Policy Guided Traversability Learning using Volumetric Representations of Complex Environments
+- [Locomotion Policy Guided Traversability Learning using Volumetric Representations of Complex Environments](https://ieeexplore.ieee.org/abstract/document/9982190/), Frey et al., IROS 2022 | [arXiv](https://arxiv.org/abs/2203.15854) | [bibtex](./terrain_traversability_analysis.bib#L205-L212)
 
-- A Self-Training Approach-Based Traversability Analysis for Mobile Robots in Urban Environments
+- [A Self-Training Approach-Based Traversability Analysis for Mobile Robots in Urban Environments](https://ieeexplore.ieee.org/abstract/document/9561394/), Lee et al., ICRA 2021 | [bibtex](./terrain_traversability_analysis.bib#L214-L221)
 
-- Adaptive Terrain Traversability Prediction based on Multi-Source Transfer Gaussian Processes
+- [Adaptive Terrain Traversability Prediction based on Multi-Source Transfer Gaussian Processes](https://ieeexplore.ieee.org/abstract/document/9636528/), Inotsume et al., IROS 2021 | [bibtex](./terrain_traversability_analysis.bib#L223-L230)
 
-- ForestTrav: 3D LiDAR-Only Forest Traversability Estimation for Autonomous Ground Vehicles
+- [ForestTrav: 3D LiDAR-Only Forest Traversability Estimation for Autonomous Ground Vehicles](https://ieeexplore.ieee.org/abstract/document/10458917/), Ruetz et al., IEEE Access 2024 | [arXiv](https://arxiv.org/abs/2305.12705) | [bibtex](./terrain_traversability_analysis.bib#L232-L238)
 
-- Forest Traversability Mapping (FTM): Traversability estimation using 3D voxel-based Normal Distributed Transform to enable forest navigation
+- [Forest Traversability Mapping (FTM): Traversability estimation using 3D voxel-based Normal Distributed Transform to enable forest navigation](https://ieeexplore.ieee.org/abstract/document/9981401/), Ruetz et al., IROS 2022 | [bibtex](./terrain_traversability_analysis.bib#L240-L247)
 
-- Learning Ground Traversability From Simulations
+- [Learning Ground Traversability From Simulations](https://ieeexplore.ieee.org/abstract/document/8280544/), Chavez et al., RA-L 2018 | [arXiv](https://arxiv.org/abs/1709.05368) | [bibtex](./terrain_traversability_analysis.bib#L249-L258) | [Github](https://github.com/romarcg/traversability_estimation)
 
-- Traversability Analysis for Mobile Robots in Outdoor Environments: A Semi-Supervised Learning Approach Based on 3D-Lidar Data
+- [Traversability Analysis for Mobile Robots in Outdoor Environments: A Semi-Supervised Learning Approach Based on 3D-Lidar Data](https://ieeexplore.ieee.org/abstract/document/7139749/), Suger et al., ICRA 2015 | [bibtex](./terrain_traversability_analysis.bib#L260-L267)
 
-- Terrain Classification in Complex Three‐dimensional Outdoor Environments
+- [Terrain Classification in Complex Three‐dimensional Outdoor Environments](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21521), Santamaria et al., Journal of Field Robotics 2015 | [bibtex](./terrain_traversability_analysis.bib#L269-L278)
 
 
 </details>
@@ -176,30 +196,30 @@ Any PRs are welcome! 😃
 <details open>
 <summary>Image segmentation </summary>
 
-- GA-Nav: Efficient Terrain Segmentation for Robot Navigation in Unstructured Outdoor Environments
+- [GA-Nav: Efficient Terrain Segmentation for Robot Navigation in Unstructured Outdoor Environments](https://ieeexplore.ieee.org/abstract/document/9810192/), Guan et al., RA-L 2022 | [arXiv](https://arxiv.org/abs/2103.04233) | [bibtex](./terrain_traversability_analysis.bib#L280-L289) | [Github](https://github.com/rayguan97/GANav-offroad)
 
-- TerraPN: Unstructured Terrain Navigation using Online Self-Supervised Learning
+- [TerraPN: Unstructured Terrain Navigation using Online Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/9981942/), Sathyamoorthy et al., IROS 2022 | [arXiv](https://arxiv.org/abs/2202.12873) | [bibtex](./terrain_traversability_analysis.bib#L291-L298) | [Github](https://github.com/AdarshJS/terrapn)
 
-- Mars Terrain Segmentation with Less Labels
+- [Mars Terrain Segmentation with Less Labels](https://ieeexplore.ieee.org/abstract/document/9843245/), Goh et al., AERO 2022 | [arXiv](https://arxiv.org/abs/2202.00791) | [bibtex](./terrain_traversability_analysis.bib#L300-L307)
 
-- Regressed Terrain Traversability Cost for Autonomous Navigation Based on Image Textures
+- [Regressed Terrain Traversability Cost for Autonomous Navigation Based on Image Textures](https://www.mdpi.com/2076-3417/10/4/1195), Bekhti et al., Applied Sciences 2020 | [bibtex](./terrain_traversability_analysis.bib#L309-L318)
 
-- Learning terrain segmentation with classifier ensembles for autonomous robot navigation in unstructured environments
+- [Learning terrain segmentation with classifier ensembles for autonomous robot navigation in unstructured environments](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.20279), Procopio et al., Journal of Field Robotics 2009 | [bibtex](./terrain_traversability_analysis.bib#L320-L329)
 
 </details>
 
 <details open>
 <summary>Learning from demonstration</summary>
 
-- Self-Supervised Traversability Prediction by Learning to Reconstruct Safe Terrain
+- [Self-Supervised Traversability Prediction by Learning to Reconstruct Safe Terrain](https://ieeexplore.ieee.org/abstract/document/9981368/), Schmid et al., IROS 2022 | [arXiv](https://arxiv.org/abs/2208.01329) | [bibtex](./terrain_traversability_analysis.bib#L331-L338)
 
-- Safe Robot Navigation via Multi-Modal Anomaly Detection
+- [Safe Robot Navigation via Multi-Modal Anomaly Detection](https://ieeexplore.ieee.org/abstract/document/8963641/), Wellhausen et al., RA-L 2020 | [arXiv](https://arxiv.org/abs/2001.07934) | [bibtex](./terrain_traversability_analysis.bib#L340-L349) | [Github](https://github.com/leggedrobotics/anomaly_navigation)
 
-- Where Should I Walk? Predicting Terrain Properties From Images Via Self-Supervised Learning
+- [Where Should I Walk? Predicting Terrain Properties From Images Via Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/8627373/), Wellhausen et al., RA-L 2019 | [bibtex](./terrain_traversability_analysis.bib#L351-L360)
 
-- GONet: A Semi-Supervised Deep Learning Approach For Traversability Estimation
+- [GONet: A Semi-Supervised Deep Learning Approach For Traversability Estimation](https://ieeexplore.ieee.org/abstract/document/8594031/), Hirose et al., IROS 2018 | [arXiv](https://arxiv.org/abs/1803.03254) | [bibtex](./terrain_traversability_analysis.bib#362-L369) | [Github](https://github.com/NHirose/GONET)
 
-- Find your own way: Weakly-supervised segmentation of path proposals for urban autonomy
+- [Find your own way: Weakly-supervised segmentation of path proposals for urban autonomy](https://ieeexplore.ieee.org/abstract/document/7989025/), Barnes et al., ICRA 2017 | [arXiv](https://arxiv.org/abs/1610.01238) | [bibtex](./terrain_traversability_analysis.bib#L371-L378)
 
 </details>
 
@@ -207,25 +227,27 @@ Any PRs are welcome! 😃
 
 ### Proprioception-based approaches
 
-- Multiclass Terrain Classification using Sound and Vibration from Mobile Robot Terrain Interaction
+- [Deep Spatiotemporal Models for Robust Proprioceptive Terrain Classification](https://journals.sagepub.com/doi/abs/10.1177/0278364917727062), Valada et al., IJRR 2017 | [arXiv](https://arxiv.org/abs/1804.00736) | [bibtex](./terrain_traversability_analysis.bib#L389-L398)
+
+- [Multiclass Terrain Classification using Sound and Vibration from Mobile Robot Terrain Interaction](https://ieeexplore.ieee.org/abstract/document/9636237/), Libby et al., IROS 2021 | [bibtex](./terrain_traversability_analysis.bib#L380-L387)
+
+
 
 <br>
 
 ### Hybrid approaches
 
-- TNS: Terrain Traversability Mapping and Navigation System for Autonomous Excavators
+- [TNS: Terrain Traversability Mapping and Navigation System for Autonomous Excavators](https://www.roboticsproceedings.org/rss18/p049.html), Guan et al., RSS 2022 | [arXiv](https://arxiv.org/abs/2109.06250) | [bibtex](./terrain_traversability_analysis.bib#L400-L408)
 
-- Self-Supervised Visual Terrain Classification From Unsupervised Acoustic Feature Learning
+- [Self-Supervised Visual Terrain Classification From Unsupervised Acoustic Feature Learning](https://ieeexplore.ieee.org/abstract/document/9247267/), Zurn et al., T-RO 2020 | [arXiv](https://arxiv.org/abs/1912.03227) | [bibtex](./terrain_traversability_analysis.bib#L410-L419)
 
-- How Does It Feel? Self-Supervised Costmap Learning for Off-Road Vehicle Traversability
+- [How Does It Feel? Self-Supervised Costmap Learning for Off-Road Vehicle Traversability](https://ieeexplore.ieee.org/abstract/document/10160856/), Castro et al., ICRA 2023 | [arXiv](https://arxiv.org/abs/2209.10788) | [bibtex](./terrain_traversability_analysis.bib#L421-L428)
 
-- How Rough Is the Path? Terrain Traversability Estimation for Local and Global Path Planning
+- [How Rough Is the Path? Terrain Traversability Estimation for Local and Global Path Planning](https://ieeexplore.ieee.org/abstract/document/9721819/), Waibel et al., T-ITS 2022 | [bibtex](./terrain_traversability_analysis.bib#L430-L439)
 
-- An Hybrid Approach to Improve the Performance of Encoder-Decoder Architectures for Traversability Analysis in Urban Environments
+- [An Hybrid Approach to Improve the Performance of Encoder-Decoder Architectures for Traversability Analysis in Urban Environments](https://ieeexplore.ieee.org/abstract/document/9827248/), Fusaro et al., IV 2022 | [bibtex](./terrain_traversability_analysis.bib#L441-L448)
 
-- Geometric and Visual Terrain Classification for Autonomous Mobile Navigation
-
-- Terrain Classification in Complex Three‐dimensional Outdoor Environments
+- [Geometric and Visual Terrain Classification for Autonomous Mobile Navigation](https://ieeexplore.ieee.org/abstract/document/8206092/), Schilling et al., IROS 2017 | [bibtex](./terrain_traversability_analysis.bib#L450-L457)
 
 <br>
 
@@ -234,29 +256,29 @@ Any PRs are welcome! 😃
 <details open>
 <summary>Reinforcement Learning </summary>
 
-- BADGR: An Autonomous Self-Supervised Learning-Based Navigation System
+- [BADGR: An Autonomous Self-Supervised Learning-Based Navigation System](https://ieeexplore.ieee.org/abstract/document/9345970/), Kahn et al., RA-L 2021 | [arXiv](https://arxiv.org/abs/2002.05700) | [bibtex](./terrain_traversability_analysis.bib#L459-468) | [Github](https://github.com/gkahn13/badgr)
 
-- A Sim-to-Real Pipeline for Deep Reinforcement Learning for Autonomous Robot Navigation in Cluttered Rough Terrain
+- [A Sim-to-Real Pipeline for Deep Reinforcement Learning for Autonomous Robot Navigation in Cluttered Rough Terrain](https://ieeexplore.ieee.org/abstract/document/9468918/), Hu et al., RA-L 2021 | [bibtex](./terrain_traversability_analysis.bib#L470-L479)
 
-- TERP: Reliable Planning in Uneven Outdoor Environments using Deep Reinforcement Learning
+- [TERP: Reliable Planning in Uneven Outdoor Environments using Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/9812238/), Weerakoon et al., ICRA 2022 | [arXiv](https://arxiv.org/abs/2109.05120) | [bibtex](./terrain_traversability_analysis.bib#L481-488) | [Github](https://github.com/kasunweerkoon/terp)
 
 
 </details>
 
 <details open>
-<summary>Traditional Planning & control </summary>
+<summary>Traditional Planning & Control </summary>
 
-- Exploration of 3D terrains using potential fields with elevation-based local distortions
+- [Exploration of 3D terrains using potential fields with elevation-based local distortions](https://ieeexplore.ieee.org/abstract/document/9197577), Maffei et al., ICRA 2020 | [bibtex](./terrain_traversability_analysis.bib#L490-L497)
 
-- Long-Term Robot Navigation in Indoor Environments Estimating Patterns in Traversability Changes
+- [Long-Term Robot Navigation in Indoor Environments Estimating Patterns in Traversability Changes](https://ieeexplore.ieee.org/abstract/document/9197078/), Nardi et al., ICRA 2020 | [arXiv](https://arxiv.org/abs/1909.12733) | [bibtex](./terrain_traversability_analysis.bib#L499-L506)
 
-- Perceptive Locomotion in Rough Terrain – Online Foothold Optimization
+- [Perceptive Locomotion in Rough Terrain – Online Foothold Optimization](https://ieeexplore.ieee.org/abstract/document/9134750), Jenelten et al., RA-L 2020 | [bibtex](./terrain_traversability_analysis.bib#L508-L517)
 
-- Driving on Point Clouds: Motion Planning, Trajectory Optimization, and Terrain Assessment in Generic Nonplanar Environments
+- [Driving on Point Clouds: Motion Planning, Trajectory Optimization, and Terrain Assessment in Generic Nonplanar Environments](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21700), Krusi et al., Journal of Field Robotics 2017 | [bibtex](./terrain_traversability_analysis.bib#L519-L528)
 
-- Navigation Planning for Legged Robots in Challenging Terrain
+- [Navigation Planning for Legged Robots in Challenging Terrain](https://ieeexplore.ieee.org/abstract/document/7759199/), Wermelinger et al., IROS 2016 | [bibtex](./terrain_traversability_analysis.bib#L530-L539) | [Github](https://github.com/leggedrobotics/traversability_estimation)
 
-- Fuzzy Based Traversability Analysis for a Mobile Robot on Rough Terrain
+- [Fuzzy Based Traversability Analysis for a Mobile Robot on Rough Terrain](https://ieeexplore.ieee.org/abstract/document/7139753), Tanaka et al., ICRA 2015 | [bibtex](./terrain_traversability_analysis.bib#L541-L550)
 
 </details>
 
