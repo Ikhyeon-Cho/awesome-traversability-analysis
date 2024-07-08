@@ -286,7 +286,7 @@ Keep updating... Any PRs are welcome! 😃
 
 ## Public Datasets
 
-### Structured urban environments
+### Urban (Structured / Semi-structured) terrains
 - [KITTI VIsion Benchmark Suite](http://www.cvlibs.net/datasets/kitti/) : Stereo Camera images, LiDAR pointclouds, GPS/IMU  data
 - [SemanticKITTI](http://semantic-kitti.org/index.html) : LiDAR points labeled with semantic class
 - [nuScenes](https://www.nuscenes.org) : The data from 6 cameras, 1 LiDAR, 5 radars, and GPS/IMU
@@ -299,7 +299,7 @@ See more datasets at:
 - [awesome-slam-datasets](https://github.com/youngguncho/awesome-slam-datasets)
 
 
-### Unstructured terrains
+### Off-road (Unstructured) terrains
 - [RELLIS-3D](https://www.unmannedlab.org/research/RELLIS-3D) : Data with Stereo Camera images, LiDAR pointclouds, GPS/IMU
 - [RUGD](http://rugd.vision/) : Video dataset annotated with pixel-wise labels
 - [BotanicGarden](https://github.com/robot-pesg/BotanicGarden) : Stereo camera images, LiDAR pointclouds, GPS/IMU, Wheel encoders
