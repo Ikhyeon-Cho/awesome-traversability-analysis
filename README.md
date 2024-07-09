@@ -290,9 +290,9 @@ Keep updating... Any PRs are welcome! 😃
 - [KITTI VIsion Benchmark Suite](http://www.cvlibs.net/datasets/kitti/) : Stereo Camera images, LiDAR pointclouds, GPS/IMU  data
 - [SemanticKITTI](http://semantic-kitti.org/index.html) : LiDAR points labeled with semantic class
 - [nuScenes](https://www.nuscenes.org) : The data from 6 cameras, 1 LiDAR, 5 radars, and GPS/IMU
-- [BDD100k](https://bdd-data.berkeley.edu/) : Video images annotated for object detection, lane detection, action recognition.
+- [BDD100k](https://doc.bdd100k.com/download.html) : Video images annotated for object detection, lane detection, action recognition.
 - [Cityscapes](https://www.cityscapes-dataset.com/) : semantic segmentation with high-resolution images annotated at the pixel level
-- [KAIST Urban Dataset](https://sites.google.com/view/complex-urban-dataset/home) : The data from LiDAR, cameras (stereo, thermal, and panoramic), GPS, and IMU.
+- [KAIST Urban Dataset](https://sites.google.com/view/complex-urban-dataset/home) : The data from multiple LiDARs, stereo cameras, GPS, and IMU.
 
 See more datasets at:
 - [awesome-autonomous-driving-dataasets](https://github.com/lhyfst/awesome-autonomous-driving-datasets)
